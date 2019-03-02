@@ -1,3 +1,17 @@
+import uuidv4 from "uuid/v4";
+
+export const newTimer = (attrs = {}) => {
+  const timer = {
+    title: attrs.title || "Timer",
+    project: attrs.project || "Project",
+    id: uuidv4(),
+    elapsed: 0,
+    isRunning: false
+  };
+
+  return timer;
+};
+
 export const millisecondsToHuman = ms => {
   const seconds = Math.floor((ms / 1000) % 60);
   const minutes = Math.floor((ms / 1000 / 60) % 60);

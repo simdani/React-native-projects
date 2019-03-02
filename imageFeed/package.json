@@ -1,5 +1,5 @@
 {
-  "name": "timetracker",
+  "name": "imageFeed",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,10 +8,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "expo": "^32.0.6",
+    "expo-constants": "^3.0.0",
     "prop-types": "^15.7.2",
     "react": "16.6.3",
-    "react-native": "0.58.6",
-    "uuid": "^3.3.2"
+    "react-native": "0.58.6"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",

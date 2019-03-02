@@ -23,7 +23,8 @@ module.exports = {
     quotes: [2, "double", { avoidEscape: true }],
     "object-curly-newline": "off",
     "import/prefer-default-export": "off",
-    "arrow-parens": "off"
+    "arrow-parens": "off",
+    "implicit-arrow-linebreak": "off"
   },
   globals: {
     fetch: false
