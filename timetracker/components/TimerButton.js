@@ -38,15 +38,15 @@ const styles = StyleSheet.create({
   buttonText: {
     textAlign: "center",
     fontWeight: "bold"
-  },
-  title: {
-    fontSize: 14,
-    fontWeight: "bold"
-  },
-  elapsedTime: {
-    fontSize: 18,
-    fontWeight: "bold",
-    textAlign: "center",
-    paddingVertical: 10
   }
+  // title: {
+  //   fontSize: 14,
+  //   fontWeight: "bold"
+  // },
+  // elapsedTime: {
+  //   fontSize: 18,
+  //   fontWeight: "bold",
+  //   textAlign: "center",
+  //   paddingVertical: 10
+  // }
 });

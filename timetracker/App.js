@@ -26,6 +26,8 @@ export default class App extends Component {
   };
 
   render() {
+    const { timers } = this.state;
+
     return (
       <View style={styles.appContainer}>
         <View style={styles.titleContainer}>
@@ -33,7 +35,7 @@ export default class App extends Component {
         </View>
         <ScrollView style={styles.timerList}>
           <ToggleableTimerForm />
-          {timers.map(({ title, project, id, element, isRunning }) => (
+          {timers.map(({ title, project, id, elapsed, isRunning }) => (
             <EditableTimer
               id={id}
               title={title}
